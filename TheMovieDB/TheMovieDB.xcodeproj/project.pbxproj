@@ -15,6 +15,7 @@
 		955C649125B75BC400E92BC6 /* TheMovieDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 955C648F25B75BC400E92BC6 /* TheMovieDB.xcdatamodeld */; };
 		955C649C25B75BC400E92BC6 /* TheMovieDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C649B25B75BC400E92BC6 /* TheMovieDBTests.swift */; };
 		955C64A725B75BC400E92BC6 /* TheMovieDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C64A625B75BC400E92BC6 /* TheMovieDBUITests.swift */; };
+		955C64BB25B75F1600E92BC6 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955C64BA25B75F1600E92BC6 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		955C64A225B75BC400E92BC6 /* TheMovieDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMovieDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		955C64A625B75BC400E92BC6 /* TheMovieDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieDBUITests.swift; sourceTree = "<group>"; };
 		955C64A825B75BC400E92BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955C64BA25B75F1600E92BC6 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				955C649225B75BC400E92BC6 /* Info.plist */,
 				955C648F25B75BC400E92BC6 /* TheMovieDB.xcdatamodeld */,
 				955C648A25B75BC400E92BC6 /* Preview Content */,
+				955C64BA25B75F1600E92BC6 /* Main.swift */,
 			);
 			path = TheMovieDB;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				955C64BB25B75F1600E92BC6 /* Main.swift in Sources */,
 				955C648E25B75BC400E92BC6 /* Persistence.swift in Sources */,
 				955C648725B75BC000E92BC6 /* ContentView.swift in Sources */,
 				955C649125B75BC400E92BC6 /* TheMovieDB.xcdatamodeld in Sources */,
